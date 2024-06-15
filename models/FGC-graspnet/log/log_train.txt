@@ -1,0 +1,151 @@
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='~/graspnet_baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='~/graspnet-baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='/home/luyh/graspnet-baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='/home/luyh/graspnet-baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='/home/luyh/graspnet-baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+**** EPOCH 000 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2022-07-06 22:53:02.561044
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='/home/luyh/graspnet-baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+**** EPOCH 000 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2022-07-06 22:54:20.664333
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='/home/luyh/graspnet-baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='/home/luyh/graspnet-baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+**** EPOCH 000 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2022-07-06 22:58:01.802845
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='/home/luyh/graspnet-baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+**** EPOCH 000 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2022-07-06 23:00:48.033211
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='/home/luyh/graspnet-baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+**** EPOCH 000 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2022-07-06 23:02:30.260290
+ ---- batch: 010 ----
+mean loss/overall_loss: 1.777084
+mean loss/stage1_objectness_loss: 0.650260
+mean loss/stage1_view_loss: 0.141157
+mean loss/stage2_grasp_angle_class_loss: 2.166051
+mean loss/stage2_grasp_depth_cls_loss: 0.968530
+mean loss/stage2_grasp_score_loss: 0.116216
+mean loss/stage2_grasp_width_loss: 1.329874
+mean stage1_objectness_acc: 0.626758
+mean stage1_objectness_prec: 0.576089
+mean stage1_objectness_recall: 0.578866
+mean stage1_pos_view_pred_count: 6743.100000
+mean stage2_grasp_angle_class_acc/0_degree: 0.421704
+mean stage2_grasp_angle_class_acc/15_degree: 0.522584
+mean stage2_grasp_angle_class_acc/30_degree: 0.620284
+mean stage2_grasp_depth_cls_acc: 0.733744
+ ---- batch: 020 ----
+mean loss/overall_loss: 1.280322
+mean loss/stage1_objectness_loss: 0.560989
+mean loss/stage1_view_loss: 0.083024
+mean loss/stage2_grasp_angle_class_loss: 1.502694
+mean loss/stage2_grasp_depth_cls_loss: 0.660265
+mean loss/stage2_grasp_score_loss: 0.057837
+mean loss/stage2_grasp_width_loss: 0.652509
+mean stage1_objectness_acc: 0.699658
+mean stage1_objectness_prec: 0.602643
+mean stage1_objectness_recall: 0.649153
+mean stage1_pos_view_pred_count: 1151.000000
+mean stage2_grasp_angle_class_acc/0_degree: 0.770204
+mean stage2_grasp_angle_class_acc/15_degree: 0.808371
+mean stage2_grasp_angle_class_acc/30_degree: 0.839097
+mean stage2_grasp_depth_cls_acc: 0.834418
+ ---- batch: 030 ----
+mean loss/overall_loss: 1.092311
+mean loss/stage1_objectness_loss: 0.580696
+mean loss/stage1_view_loss: 0.050878
+mean loss/stage2_grasp_angle_class_loss: 1.147558
+mean loss/stage2_grasp_depth_cls_loss: 0.522689
+mean loss/stage2_grasp_score_loss: 0.040676
+mean loss/stage2_grasp_width_loss: 0.419882
+mean stage1_objectness_acc: 0.702441
+mean stage1_objectness_prec: 0.664283
+mean stage1_objectness_recall: 0.722532
+mean stage1_pos_view_pred_count: 328.800000
+mean stage2_grasp_angle_class_acc/0_degree: 0.826170
+mean stage2_grasp_angle_class_acc/15_degree: 0.852629
+mean stage2_grasp_angle_class_acc/30_degree: 0.881014
+mean stage2_grasp_depth_cls_acc: 0.833918
+ ---- batch: 040 ----
+mean loss/overall_loss: 0.945058
+mean loss/stage1_objectness_loss: 0.541682
+mean loss/stage1_view_loss: 0.039571
+mean loss/stage2_grasp_angle_class_loss: 0.893422
+mean loss/stage2_grasp_depth_cls_loss: 0.441928
+mean loss/stage2_grasp_score_loss: 0.026413
+mean loss/stage2_grasp_width_loss: 0.307784
+mean stage1_objectness_acc: 0.721338
+mean stage1_objectness_prec: 0.668028
+mean stage1_objectness_recall: 0.735213
+mean stage1_pos_view_pred_count: 105.600000
+mean stage2_grasp_angle_class_acc/0_degree: 0.842629
+mean stage2_grasp_angle_class_acc/15_degree: 0.868705
+mean stage2_grasp_angle_class_acc/30_degree: 0.889179
+mean stage2_grasp_depth_cls_acc: 0.842629
+ ---- batch: 050 ----
+mean loss/overall_loss: 0.986783
+mean loss/stage1_objectness_loss: 0.542187
+mean loss/stage1_view_loss: 0.040517
+mean loss/stage2_grasp_angle_class_loss: 0.993633
+mean loss/stage2_grasp_depth_cls_loss: 0.548309
+mean loss/stage2_grasp_score_loss: 0.022733
+mean loss/stage2_grasp_width_loss: 0.252751
+mean stage1_objectness_acc: 0.710693
+mean stage1_objectness_prec: 0.608728
+mean stage1_objectness_recall: 0.771846
+mean stage1_pos_view_pred_count: 46.900000
+mean stage2_grasp_angle_class_acc/0_degree: 0.786961
+mean stage2_grasp_angle_class_acc/15_degree: 0.824893
+mean stage2_grasp_angle_class_acc/30_degree: 0.851668
+mean stage2_grasp_depth_cls_acc: 0.786961
+ ---- batch: 060 ----
+mean loss/overall_loss: 0.990469
+mean loss/stage1_objectness_loss: 0.568085
+mean loss/stage1_view_loss: 0.036698
+mean loss/stage2_grasp_angle_class_loss: 0.967829
+mean loss/stage2_grasp_depth_cls_loss: 0.531584
+mean loss/stage2_grasp_score_loss: 0.019485
+mean loss/stage2_grasp_width_loss: 0.212771
+mean stage1_objectness_acc: 0.701611
+mean stage1_objectness_prec: 0.645445
+mean stage1_objectness_recall: 0.673493
+mean stage1_pos_view_pred_count: 17.700000
+mean stage2_grasp_angle_class_acc/0_degree: 0.790531
+mean stage2_grasp_angle_class_acc/15_degree: 0.827681
+mean stage2_grasp_angle_class_acc/30_degree: 0.857589
+mean stage2_grasp_depth_cls_acc: 0.790531
+Namespace(batch_size=2, bn_decay_rate=0.5, bn_decay_step=2, camera='realsense', checkpoint_path=None, dataset_root='/home/luyh/graspnet-baseline/grasp_data', device='cuda', dist_url='env://', distributed=False, learning_rate=0.001, log_dir='log', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='8,12,16', max_epoch=18, num_point=20000, num_view=300, seed=13, weight_decay=0, world_size=1)
+**** EPOCH 000 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2022-07-06 23:14:34.317510
+ ---- batch: 010 ----
+mean loss/overall_loss: 1.772583
+mean loss/stage1_objectness_loss: 0.644728
+mean loss/stage1_view_loss: 0.140702
+mean loss/stage2_grasp_angle_class_loss: 2.173053
+mean loss/stage2_grasp_depth_cls_loss: 0.974891
+mean loss/stage2_grasp_score_loss: 0.116768
+mean loss/stage2_grasp_width_loss: 1.320168
+mean stage1_objectness_acc: 0.630518
+mean stage1_objectness_prec: 0.579949
+mean stage1_objectness_recall: 0.584234
+mean stage1_pos_view_pred_count: 6654.700000
+mean stage2_grasp_angle_class_acc/0_degree: 0.413733
+mean stage2_grasp_angle_class_acc/15_degree: 0.517574
+mean stage2_grasp_angle_class_acc/30_degree: 0.617114
+mean stage2_grasp_depth_cls_acc: 0.729804

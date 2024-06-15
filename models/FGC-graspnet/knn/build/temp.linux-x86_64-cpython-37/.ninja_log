@@ -1,0 +1,4 @@
+# ninja log v5
+0	326	1716344717724728144	/home/freax/Documents/GitHub/VL-Grasp/GraspNet/knn/build/temp.linux-x86_64-cpython-37/home/freax/Documents/GitHub/VL-Grasp/GraspNet/knn/src/cuda/knn.o	e13ac1686725da5
+0	3853	1716344721260787528	/home/freax/Documents/GitHub/VL-Grasp/GraspNet/knn/build/temp.linux-x86_64-cpython-37/home/freax/Documents/GitHub/VL-Grasp/GraspNet/knn/src/cpu/knn_cpu.o	b46440fb1061dfab
+0	6923	1716344724324838984	/home/freax/Documents/GitHub/VL-Grasp/GraspNet/knn/build/temp.linux-x86_64-cpython-37/home/freax/Documents/GitHub/VL-Grasp/GraspNet/knn/src/vision.o	50082efde330dc94

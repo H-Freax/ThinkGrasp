@@ -1,0 +1,12 @@
+# ninja log v5
+0	7731	1717025182307066567	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/cylinder_query_gpu.o	8792bfd6e2455b0c
+0	7738	1717025182315066699	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/group_points_gpu.o	ef8cf72caef1bba3
+1	7781	1717025182359067425	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/interpolate_gpu.o	c1e3fc0638ff024e
+0	8499	1717025183075079235	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/ball_query_gpu.o	4db1961eacaf0007
+0	9574	1717025184115096390	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/ball_query.o	f6b981ef83832b1a
+0	9630	1717025184171097314	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/interpolate.o	bedc2faae81e7eae
+0	9690	1717025184235098369	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/group_points.o	5b58c6841500ee96
+1	9900	1717025184479102394	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/sampling_gpu.o	79057ac63e17d352
+0	12495	1717025187035144556	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/cylinder_query.o	f2890887140c2d12
+0	12630	1717025187167146733	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/bindings.o	fcbd0b5663a9b62
+1	12786	1717025187327149373	/home/freax/Documents/GitHub/vlghard/GraspNet/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/sampling.o	46eb3d2b2a72b3de

@@ -1,0 +1,3 @@
+# ninja log v5
+0	245	1717025287516802640	/home/freax/Documents/GitHub/vlghard/GraspNet/knn/build/temp.linux-x86_64-cpython-38/home/freax/Documents/GitHub/vlghard/GraspNet/knn/src/cuda/knn.o	76c70f537614537d
+0	7747	1717025294980925855	/home/freax/Documents/GitHub/vlghard/GraspNet/knn/build/temp.linux-x86_64-cpython-38/home/freax/Documents/GitHub/vlghard/GraspNet/knn/src/cpu/knn_cpu.o	683e12edf6ab78b1
