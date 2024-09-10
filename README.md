@@ -1,5 +1,11 @@
-# Think Before You Grasp: A Multimodal Vision-Language System for Strategic Part Grasping in Clutter
-This is the official repository for the paper: **Think Before You Grasp: A Multimodal Vision-Language System for Strategic Part Grasping in Clutter**.
+# ThinkGrasp: A Vision-Language System for Strategic Part Grasping in Clutter
+This is the official repository for the paper: **ThinkGrasp: A Vision-Language System for Strategic Part Grasping in Clutter**.
+
+
+## Todo List
+- [ ] **Code Cleanup**
+- [ ] **Write a Complete README**
+- [ ] **Additional Documentation**
 
 
 ## Setup
@@ -83,16 +89,16 @@ cd GroundingDINO
 pip install -e .
 ```
 
-change the float to float64
+Change the float to float64
 
 
-install CUDA 11.8 [link](https://drive.google.com/file/d/1weqwQq0Agm5Xp3q7CT_eo8gyvvd_JGAk/view?usp=sharing)
-download the file and 
+Install CUDA 11.8 
+Download the file and 
 ```
 sudo bash cuda_11.8.0_520.61.05_linux.run
 ```
 
-add these code in ~/.bashrc
+Add these code in ~/.bashrc
 ```
 export CUDA_HOME=/usr/local/cuda-11.8
 export PATH=$CUDA_HOME/bin:$PATH
@@ -105,13 +111,13 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.8/lib64
 export CUDADIR=/usr/local/cuda-11.8
 ```
 
-if you want to use VLP
+If you want to use VLP
 ```
 cd VLP
 wget https://github.com/Cheems-Seminar/grounded-segment-any-parts/releases/download/v1.0/swinbase_part_0a0000.pth
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 ```
-need to download pth in som[downloaddata]
+Need to download pth in som[downloaddata]
 
 ### Assets
 We provide the processed object models in this [link](https://drive.google.com/drive/folders/10Kyzzhgcnn1WUlQAhUDk9EBmCzk4p-Ar?usp=sharing). Please download the folder and put it in the `assets` folder.
@@ -129,3 +135,14 @@ python test.py --load_model True --model_path 'PATH OF YOUR CHECKPOINT FILE'
 ## Citation
 
 If you find this work useful, please consider citing:
+
+```
+@misc{qian2024thinkgrasp,
+        title={ThinkGrasp: A Vision-Language System for Strategic Part Grasping in Clutter},
+        author={Yaoyao Qian and Xupeng Zhu and Ondrej Biza and Shuo Jiang and Linfeng Zhao and Haojie Huang and Yu Qi and Robert Platt},
+        year={2024},
+        eprint={2407.11298},
+        archivePrefix={arXiv},
+        primaryClass={cs.RO}
+    }
+```
