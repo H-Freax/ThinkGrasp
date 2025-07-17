@@ -1,22 +1,14 @@
 
 # [CoRL 2024] ThinkGrasp: A Vision-Language System for Strategic Part Grasping in Clutter
 
+# This is the REAL-WORLD only version. Only include LangSAM.
+
 Welcome to the official repository for **ThinkGrasp: A Vision-Language System for Strategic Part Grasping in Clutter**.  
 
 [![arXiv](https://img.shields.io/badge/arXiv-%23B31B1B.svg?style=for-the-badge&logo=arXiv&logoColor=white)](https://arxiv.org/abs/2407.11298)  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=o5QHFhI95Qo) [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/H-Freax/ThinkGrasp)  
 ![image](https://github.com/user-attachments/assets/373caf62-99eb-44f6-a7e6-65d18e05e37e)
 
-## ThinkGrasp Featured as a Baseline in Recent Papers
 
-So pleased to see **ThinkGrasp** being used as a **baseline** in the following papers:
-
-|     Date      | Paper Title                                                                                                               |
-|---------------|---------------------------------------------------------------------------------------------------------------------------|
-| 25/03/02      | [AffordGrasp: In-Context Affordance Reasoning for Open-Vocabulary Task-Oriented Grasping in Clutter](https://arxiv.org/abs/2503.00778) |
-| 25/03/12      | [Efficient Alignment of Unconditioned Action Prior for Language-conditioned Pick and Place in Clutter](https://arxiv.org/abs/2503.09423) | 
-| 25/03/17      | [Free-form language-based robotic reasoning and grasping](https://arxiv.org/abs/2503.13082) | 
-
-Looking forward to more research in this area! 🚀
 
 ## Table of Contents
 
