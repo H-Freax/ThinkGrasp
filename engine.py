@@ -15,6 +15,7 @@ import torch
 import numpy as np
 from PIL import Image, ImageDraw
 import cv2
+from config import CameraConfig
 
 
 
@@ -117,9 +118,7 @@ class grasp_model():
 
         return processed_masks
     def choose_in_mask(self, gg):
-        camera = CameraInfo(
-            width=640, height=480, fx=383.9592, fy=383.6245, cx=322.1625, cy=245.3161, scale=1000.0
-        )
+        camera = CameraConfig.get_camera_info()
         gg_new = GraspGroup()
         self.mask = self.process_masks(self.mask)
         # self.mask = self.mask.squeeze(0)

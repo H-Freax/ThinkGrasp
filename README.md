@@ -130,6 +130,15 @@ ThinkGrasp
     └── unseen_objects
 ```
 
+**Checkpoint Setup:**
+Download the checkpoint file from: [Google Drive Link](https://drive.google.com/file/d/1x4e23njqi4A_S_LlZPCUHjHT9CqFPzkc/view)  
+Place the downloaded `checkpoint_fgc.tar` file in the `/logs` directory:
+```
+ThinkGrasp
+└── logs
+    └── checkpoint_fgc.tar
+```
+
 ---
 
 ### Running the Simulation
@@ -188,6 +197,34 @@ ThinkGrasp
    - **image_path**: The path to the RGB image captured by the **real-world camera** connected to your robotic setup.
    - **depth_path**: The path to the depth image from the same **real-world camera**.
    - **text_path**: A text file containing the goal or task description.
+
+3. **Camera Configuration**:
+   The system uses a centralized configuration file (`config.py`) to manage camera parameters:
+   
+   **Configuration File** (`config.py`):
+   ```python
+   class CameraConfig:
+       # Camera intrinsic parameters - UPDATE THESE FOR YOUR CAMERA
+       WIDTH = 640
+       HEIGHT = 480
+       FX = 382.8567  # Focal length x
+       FY = 382.4391  # Focal length y
+       CX = 331.3490  # Principal point x
+       CY = 247.1126  # Principal point y
+       SCALE = 1000.0  # Depth scale factor
+       
+       # Image processing region - UPDATE FOR YOUR CAMERA RESOLUTION
+       XMIN = 0
+       YMIN = 0
+       XMAX = 480
+       YMAX = 640
+   ```
+   
+   **⚠️ Camera Setup Requirements**:
+   - If you're using a different camera, you **must** update the parameters in `config.py` to match your camera's intrinsic parameters
+   - The image dimensions and processing region need to be adjusted according to your camera's resolution
+   - Camera calibration parameters (fx, fy, cx, cy) should be obtained through camera calibration for your specific hardware
+   - All camera parameters are now centrally managed in the config file, ensuring consistency across the system
 
 ---
 
