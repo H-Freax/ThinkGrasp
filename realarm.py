@@ -314,7 +314,7 @@ def get_grasp_pose():
         boxes_list = boxes.cpu().numpy().tolist()
         cropping_box = create_cropping_box_from_boxes(boxes_list, (img_ori.shape[1], img_ori.shape[0]))
 
-        visualize_cropping_box(img_ori, cropping_box)
+        visualize_cropping_box(img_ori, cropping_box)  # Disabled GUI in web server
         ray.get(langsam_actor.save.remote(masks, boxes, phrases, logits, image_pil))
         bbox_images, bbox_positions = utils.convert_outputnew(image_pil, boxes, phrases, logits, img_ori, depth_ori, preferred_grasping_location)
 
@@ -365,8 +365,11 @@ def get_grasp_pose():
 
 
     except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
         logging.error(f"Error with OpenAI API request: {e}")
-        return jsonify({"error": str(e)}), 500
+        logging.error(f"Full traceback: {error_details}")
+        return jsonify({"error": str(e), "traceback": error_details}), 500
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser('Deformable DETR training and evaluation script', parents=[get_args_parser()])
