@@ -245,6 +245,8 @@ def parse_args():
     parser.add_argument('--eval', type=bool, default=True,
                     help='Evaluates a policy every 10 episode (default: True)')
     parser.add_argument('--max_episode_step', type=int, default=50)
+    parser.add_argument('--gui', action='store_true', default=False,
+                        help='Enable GUI visualization (PyBullet viewer and matplotlib plots)')
 
     # Transformer paras
     parser.add_argument('--patch_size', type=int, default=32)
@@ -284,7 +286,7 @@ if __name__ == "__main__":
     num_episode = args.num_episode
 
     # load environment
-    env = Environment(gui=True)
+    env = Environment(gui=args.gui)
     env.seed(args.seed)
     # load logger
     logger = Logger(case_dir=args.testing_case_dir)
@@ -477,8 +479,9 @@ if __name__ == "__main__":
                     cropping_box = create_cropping_box_from_boxes(boxes_list,
                                                                   (color_image.shape[1], color_image.shape[0]))
 
-                    visualize_cropping_box(color_image, cropping_box)
-                    ray.get(langsam_actor.save.remote(masks, boxes, phrases, logits, image_pil))
+                    if args.gui:
+                        visualize_cropping_box(color_image, cropping_box)
+                    ray.get(langsam_actor.save.remote(masks, boxes, phrases, logits, image_pil, gui=args.gui))
                     bbox_images, bbox_positions = utils.convert_output(image_pil, boxes, phrases, logits, color_image, depth_image, mask_image, preferred_grasping_location)
 
                     # graspnet

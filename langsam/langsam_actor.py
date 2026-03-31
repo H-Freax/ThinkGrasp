@@ -132,7 +132,7 @@ class LangSAM():
             masks = masks.squeeze(1)
         return masks, boxes, phrases, logits
 
-    def save(self, masks, boxes, phrases, logits,image_pil):
+    def save(self, masks, boxes, phrases, logits, image_pil, gui=False):
         if len(masks) == 0:
             # print(f"No objects of the '{text_prompt}' prompt detected in the image.")
             print(f"No objects of the  prompt detected in the image.")
@@ -140,11 +140,12 @@ class LangSAM():
             # Convert masks to numpy arrays
             masks_np = [mask.squeeze().cpu().numpy() for mask in masks]
 
-            # Display the original image and masks side by side
-            langsamutils.display_image_with_masks(image_pil, masks_np)
+            if gui:
+                # Display the original image and masks side by side
+                langsamutils.display_image_with_masks(image_pil, masks_np)
 
-            # Display the image with bounding boxes and confidence scores
-            langsamutils.display_image_with_boxes(image_pil, boxes, logits, phrases)
+                # Display the image with bounding boxes and confidence scores
+                langsamutils.display_image_with_boxes(image_pil, boxes, logits, phrases)
 
             # Save the masks
             for i, mask_np in enumerate(masks_np):

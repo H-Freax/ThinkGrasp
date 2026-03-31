@@ -785,7 +785,6 @@ def get_and_process_data(cropping_box,color, depth):
 
     end_points['point_clouds'] = cloud_sampled
     end_points['cloud_colors'] = color_sampled
-    o3d.visualization.draw_geometries([cloud])
     return end_points, cloud
 
 def rotm2angle(R):

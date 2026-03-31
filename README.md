@@ -144,11 +144,15 @@ ThinkGrasp
    export OPENAI_API_KEY="sk-xxxxx"
    ```
 
-3. **Start the Simulation**:  
+3. **Start the Simulation**:
    ```bash
    pip install protobuf==3.20.1
    python simulation_main.py
-   ```  
+   ```
+   To enable GUI visualization (PyBullet viewer and matplotlib plots), add the `--gui` flag:
+   ```bash
+   python simulation_main.py --gui
+   ```
 
 4. **Change Testing Data**:  
    Update the dataset directory in `simulation_main.py` by modifying line 238:  
